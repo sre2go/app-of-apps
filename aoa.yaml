@@ -15,3 +15,6 @@ spec:
     path: apps
     repoURL: git@github.com:sre2go/app-of-apps.git
     targetRevision: HEAD
+  syncPolicy:
+      syncOptions:
+        - CreateNamespace=true
