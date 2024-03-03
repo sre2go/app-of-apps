@@ -4,3 +4,7 @@ description: A Community Helm chart for ArgoCD
 type: application
 version: 6.6.0
 appVersion: "v2.10.2"
+dependencies:
+  - name: argo-cd
+    version: "6.6.0"
+    repository: https://argoproj.github.io/argo-helm
