@@ -1,0 +1,10 @@
+apiVersion: v2
+name: nginx1
+description: A Bitnami HELM chart for NGINX
+type: application
+version: 15.12.2
+appVersion: "1.25.4"
+dependencies:
+  - name: nginx
+    version: "15.12.2"
+    repository: https://charts.bitnami.com/bitnami
