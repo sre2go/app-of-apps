@@ -3,6 +3,7 @@ kind: Application
 metadata:
   name: root-app
   namespace: argocd
+  description: Root App of Apps application for ArgoCD
   finalizers:
   - resources-finalizer.argocd.argoproj.io
 spec:
